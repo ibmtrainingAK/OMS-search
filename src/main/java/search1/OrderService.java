@@ -3,7 +3,6 @@ package search1;
 import java.util.ArrayList;
 import java.util.List;
 
-
 public class OrderService {
 	public String createOrder(Order order) {
 		return "order created";
@@ -20,8 +19,7 @@ public class OrderService {
 		System.out.println("order deleted");
 	}
 
-	public Order getOrder(int orderId) {
+	public static Order getOrder(String orderId) {
 		return new Order();
 	}
-	}
-	
+}
